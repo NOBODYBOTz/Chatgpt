@@ -8,7 +8,7 @@ BOT_NAME = environ.get("BOT_NAME", "PRIVT GPT")
 ADMIN = int(environ.get("ADMIN", ""))
 CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1001796577232"))
 ADMIN_NAME = environ.get("ADMIN_NAME", "Bisal")
-LOG_CHANNEL = environ.get("LOG_CHANNEL", "")
+LOG_CHANNEL = environ.get("LOG_CHANNEL", "-1002048171112")
 MONGO_URL = environ.get("MONGO_URL", "mongodb+srv://avinashkakde646:avinashkakde646@cluster0.jlubkn6.mongodb.net/?retryWrites=true&w=majority")
 AUTH_CHANNEL = int(
     environ.get("AUTH_CHANNEL", "-100XXXXXXXXXX")
